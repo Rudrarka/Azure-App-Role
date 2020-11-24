@@ -2,13 +2,13 @@ import os
 import jwt
 # from aadtoken import get_public_key
 
-CLIENT_ID = "client-id" # Application (client) ID of app registration
+CLIENT_ID = "8d065a20-ac1a-4b98-bf50-88120091b440" # Application (client) ID of app registration
 
-CLIENT_SECRET = "client-secret" # Placeholder - for use ONLY during testing.
+# CLIENT_SECRET = "client-secret" # Placeholder - for use ONLY during testing.
 # In a production app, we recommend you use a more secure method of storing your secret,
 # like Azure Key Vault. Or, use an environment variable as described in Flask's documentation:
 # https://flask.palletsprojects.com/en/1.1.x/config/#configuring-from-environment-variables
-# CLIENT_SECRET = os.getenv("CLIENT_SECRET")
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 # if not CLIENT_SECRET:
 #     raise ValueError("Need to define CLIENT_SECRET environment variable")
 
