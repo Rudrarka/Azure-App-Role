@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'testpythonapp-qw1'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2129b388c17a4a3ba189c2dd7cef881f }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3cb70597c8774060a420e2e561b081be }}
